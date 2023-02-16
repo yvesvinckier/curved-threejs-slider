@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow: hidden;
+}
+canvas {
+  display: block;
+}
+.container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+.twitter__logo {
+  position: absolute;
+  bottom: 40;
+  right: 4vw;
+  width: 50;
+  z-index: 5;
+}
+.header__link {
+  position: fixed;
+  z-index: 19;
+  top: 2.9vh;
+  left: 4vw;
+  width: 4vw;
+}
+.header__link svg {
+  fill: #fff;
+}
+.menu__container {
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  top: 3.5vh;
+  right: 4vw;
+  cursor: pointer;
+}
+.menu__text {
+  margin-right: 2rem;
+  color: #fff;
+  font-weight: 300;
+  font-size: 0.9rem;
+  line-height: 2.4rem;
+  font-family: "Inter", sans-serif;
+}
+.footer__credit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  z-index: 20;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 2;
+  z-index: 5;
+}
+.footer__credit a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: unset;
+  color: aqua;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  z-index: 20;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 2;
+  z-index: 5;
+}
+h2 {
+  font-family: "Italiana", serif;
+  font-size: 10vw;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 0.7em;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
